@@ -4,78 +4,130 @@
 
 /* remove default styles */
 
-*{
-    margin:0;
-    padding:0;
-    border:0;
-    text-decoration: none;
-    list-style-type: none;
+* {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   text-decoration: none;
+   list-style-type: none;
+}
+
+/* general styles */
+
+h2,
+h3 {
+   font-family: special elite, sans-serif;
+   font-weight: 100;
+   letter-spacing: 2px;
+}
+
+p {
+   font-style: merriweather, sans serif;
 }
 
 /* header, logo and navbar */
 
-header{
-    width:100%;
-    background-color: #5c6956;
-    position:fixed;
-    top:0;
+header {
+   width: 100%;
+   background-color: #5c6956;
+   position: fixed;
+   top: 0;
 }
 
-#logo{
-    font-weight:300;
-    color:#f9f9eb;
-    font-size:50px;
-    letter-spacing: 2px;
-    margin:10px 0 0 20px;
-    width:80%;
-    font-family:special elite, sans-serif;
-    line-height: 60px;
+#logo {
+   font-weight: 300;
+   color: #f9f9eb;
+   font-size: 50px;
+   letter-spacing: 2px;
+   margin: 10px 0 0 20px;
+   width: 80%;
+   font-family: special elite, sans-serif;
+   line-height: 60px;
 }
 
 /* hamburger menu for small screens
  ( instructions and ideas on how to create a hamburger menu were taken from https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/ ) */
 
- .burger-menu a {
-    box-sizing: border-box;
-    display: block;
-    width:100%;
-    color:#f9f9eb;
-    text-align:center;
-    font-size:25px;
-    letter-spacing: 2px;
-    margin-top:40px;
-    margin-bottom: 40px;
-    margin-right:40px;
- }
-
- #menu label{
-    display:inline-block;
-    color:#f9f9eb;
-    font-size:200%;
-    padding:10px;
-    position:absolute;
-    right:20px;
-    top:10px;
- }
-
- #burger{
-    float:right;
-    display:none;
- }
-
- .burger-menu{
-    display:none;
-    background-color:#5c6956;
-    height:100%;
- }
-
- #menu input:checked ~ .burger-menu { 
-    display: block; 
+.burger-menu a {
+   box-sizing: border-box;
+   display: block;
+   width: 100%;
+   color: #f9f9eb;
+   text-align: center;
+   font-size: 25px;
+   letter-spacing: 2px;
+   margin-top: 40px;
+   margin-bottom: 40px;
+   margin-right: 40px;
 }
 
-#large-nav{
-   display:none;
+#menu label {
+   display: inline-block;
+   color: #f9f9eb;
+   font-size: 200%;
+   padding: 10px;
+   position: absolute;
+   right: 20px;
+   top: 10px;
 }
+
+#burger {
+   float: right;
+   display: none;
+}
+
+.burger-menu {
+   display: none;
+   background-color: #5c6956;
+   height: 100%;
+}
+
+#menu input:checked~.burger-menu {
+   display: block;
+}
+
+#large-nav {
+   display: none;
+}
+
+/* about us section */
+
+.about-section {
+   margin-top: 70px;
+}
+
+#hero-image {
+   height: 300px;
+   width: 100%;
+   background: url("../images/hero-image.jpg") no-repeat center center;
+   background-size: cover;
+   position: relative;
+}
+
+#about-us {
+   height: 250px;
+   width: 90%;
+   position: absolute;
+   left: 20px;
+   margin-top:20px;
+}
+
+#about-us h2 {
+   color: #f9f9eb;
+   padding: 10px;
+}
+
+#cover-color {
+   background-color: rgba(0, 0, 0, 0.5);
+   width: inherit;
+   height: inherit;
+}
+
+#about-us p {
+   color: #f9f9eb;
+   letter-spacing: 2px;
+}
+
 
 /*  media queries */
 
@@ -85,33 +137,33 @@ header{
 
    #large-nav {
       display: block;
-  }
+   }
 
-  #navbar {
+   #navbar {
       font-size: 25px;
       height: 50px;
       background-color: #5c6956;
-      margin-top:20px;
-  }
+      margin-top: 20px;
+   }
 
-  #navbar li {
+   #navbar li {
       float: left;
       list-style-type: none;
       margin-left: 40px;
       color: ivory;
-  }
+   }
 
-  #navbar a {
+   #navbar a {
       color: #f9f9eb;
-  }
+   }
 
-  #menu {
+   #menu {
       display: none;
-  }
+   }
 
-  #logo{
-   margin-top: 20px;
-  }
+   #logo {
+      margin-top: 20px;
+   }
 }
 
 /* for large screens 1080px and above */
@@ -120,34 +172,33 @@ header{
 
    #large-nav {
       display: inline-block;
-  }
+   }
 
-  #navbar {
+   #navbar {
       font-size: 25px;
       position: absolute;
       bottom: 8px;
       right: 0;
-      margin-right:40px;
+      margin-right: 40px;
 
-  }
+   }
 
-  #navbar li {
+   #navbar li {
       float: left;
       list-style-type: none;
       margin-left: 40px;
       color: ivory;
-  }
+   }
 
-  #navbar a {
+   #navbar a {
       color: #f9f9eb;
-  }
+   }
 
-  #menu {
+   #menu {
       display: none;
-  }
+   }
 
-  #logo{
-   margin-top: 20px;
-  }
+   #logo {
+      margin-top: 20px;
+   }
 }
-
