@@ -73,3 +73,81 @@ header{
     display: block; 
 }
 
+#large-nav{
+   display:none;
+}
+
+/*  media queries */
+
+/* for medium to large screens */
+
+@media screen and (min-width:790px) {
+
+   #large-nav {
+      display: block;
+  }
+
+  #navbar {
+      font-size: 25px;
+      height: 50px;
+      background-color: #5c6956;
+      margin-top:20px;
+  }
+
+  #navbar li {
+      float: left;
+      list-style-type: none;
+      margin-left: 40px;
+      color: ivory;
+  }
+
+  #navbar a {
+      color: #f9f9eb;
+  }
+
+  #menu {
+      display: none;
+  }
+
+  #logo{
+   margin-top: 20px;
+  }
+}
+
+/* for large screens 1080px and above */
+
+@media screen and (min-width:1080px) {
+
+   #large-nav {
+      display: inline-block;
+  }
+
+  #navbar {
+      font-size: 25px;
+      position: absolute;
+      bottom: 8px;
+      right: 0;
+      margin-right:40px;
+
+  }
+
+  #navbar li {
+      float: left;
+      list-style-type: none;
+      margin-left: 40px;
+      color: ivory;
+  }
+
+  #navbar a {
+      color: #f9f9eb;
+  }
+
+  #menu {
+      display: none;
+  }
+
+  #logo{
+   margin-top: 20px;
+  }
+}
+
