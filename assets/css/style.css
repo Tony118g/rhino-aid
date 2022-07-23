@@ -32,21 +32,46 @@ header{
     line-height: 80px;
 }
 
-#navbar {
-    font-size: 25px;
+/* hamburger menu for small screens
+ ( instructions and ideas on how to create a hamburger menu were taken from https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/ ) */
+
+ .burger-menu a {
+    box-sizing: border-box;
+    display: block;
+    width:100%;
+    color:#101010;
+    text-align:center;
+    font-size:25px;
     letter-spacing: 2px;
-    position: absolute;
-    bottom: 2px;
-    right: 2px;
+    margin: 10px 0 10px 0;
+ }
+
+ #menu{
+    height:250px;
+ }
+
+ #menu label{
+    display:inline-block;
+    color:#f9f9eb;
+    font-size:150%;
+    padding:10px;
+    position:absolute;
+    right:20px;
+    top:10px;
+ }
+
+ #burger{
+    float:right;
+    display:none;
+ }
+
+ .burger-menu{
+    display:none;
+    background-color:#5c6956;
+    height:100%;
+ }
+
+ #menu input:checked ~ .burger-menu { 
+    display: block; 
 }
 
-#navbar li {
-    list-style-type: none;
-    margin-right: 40px;
-    float: right;
-    margin-bottom:10px;
-}
-
-#navbar a{
-    color:#f9f9eb
-}
