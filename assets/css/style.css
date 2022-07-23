@@ -164,6 +164,47 @@ header {
    #logo {
       margin-top: 20px;
    }
+
+   /* about us section resposiveness for medium screens */
+
+   .about-section {
+      margin-top: 150px;
+   }
+   
+   #hero-image {
+      height: 550px;
+      width: 100%;
+      background: url("../images/hero-image.jpg") no-repeat center center;
+      background-size: cover;
+      position: relative;
+   }
+   
+   #about-us {
+      height: 250px;
+      width: 35%;
+      position: absolute;
+      left: 40px;
+      margin-top:40px;
+   }
+   
+   #about-us h2 {
+      color: #f9f9eb;
+      padding: 10px;
+      font-size:35px;
+   }
+   
+   #cover-color {
+      background-color: rgba(0, 0, 0, 0.2);
+      width: inherit;
+      height: inherit;
+   }
+   
+   #about-us p {
+      color: #f9f9eb;
+      letter-spacing: 2px;
+      font-size:1.3rem;
+   }
+   
 }
 
 /* for large screens 1080px and above */
@@ -201,4 +242,45 @@ header {
    #logo {
       margin-top: 20px;
    }
+
+   /* about us section resposiveness for large screens */
+
+   .about-section {
+      margin-top: 98px;
+   }
+   
+   #hero-image {
+      height: 600px;
+      width: 100%;
+      background: url("../images/hero-image.jpg") no-repeat center center;
+      background-size: cover;
+      position: relative;
+   }
+   
+   #about-us {
+      height: 250px;
+      width: 35%;
+      position: absolute;
+      left: 40px;
+      margin-top:40px;
+   }
+   
+   #about-us h2 {
+      color: #f9f9eb;
+      padding: 10px;
+      font-size:35px;
+   }
+
+   #cover-color {
+      background-color: rgba(0, 0, 0, 0.2);
+      width: inherit;
+      height: inherit;
+   }
+   
+   #about-us p {
+      color: #f9f9eb;
+      letter-spacing: 2px;
+      font-size:1.3rem;
+   }
+
 }
