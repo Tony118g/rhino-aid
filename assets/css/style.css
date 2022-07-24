@@ -154,6 +154,10 @@ header {
    margin-top: 40px;
 }
 
+.info a{
+   color:#101010;
+}
+
 /*  media queries */
 
 /* for medium to large screens */
