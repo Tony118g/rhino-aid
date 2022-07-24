@@ -171,30 +171,30 @@ header {
 
 /* topic section */
 
-.topic-section{
+.topic-section {
    background: url("../images/topic-section-background.jpg") no-repeat center center;
-   background-size:cover;
-   height:200px;
+   background-size: cover;
+   height: 200px;
 }
 
-.topic{
+.topic {
    text-align: center;
-   padding:40px 20px;
+   padding: 40px 20px;
 }
 
-.topic h2{
-   font-size:50px;
-   border-bottom:2px solid #5c6956;
-   color:#f9f9eb;
+.topic h2 {
+   font-size: 50px;
+   border-bottom: 2px solid #5c6956;
+   color: #f9f9eb;
 }
 
-.topic p{
-   font-size:1.3rem;
-   padding-top:10px;
-   color:#f9f9eb;
+.topic p {
+   font-size: 1.3rem;
+   padding-top: 10px;
+   color: #f9f9eb;
 }
 
-.topic-backing{
+.topic-backing {
    background-color: rgba(0, 0, 0, 0.5);
    height: 200px;
 }
@@ -223,6 +223,23 @@ footer {
 }
 
 /*  media queries */
+
+/* for very small screens of 375px and below */
+
+@media screen and (max-width:375px) {
+
+   .about-section {
+      margin-top: 130px;
+   }
+
+   #logo{
+      width:50%;
+   }
+
+   .topic h2{
+      font-size:40px;
+   }
+}
 
 /* for medium to large screens */
 
