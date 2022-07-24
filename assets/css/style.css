@@ -169,6 +169,36 @@ header {
    padding: 30px;
 }
 
+/* topic section */
+
+.topic-section{
+   background: url("../images/topic-section-background.jpg") no-repeat center center;
+   background-size:cover;
+   height:200px;
+}
+
+.topic{
+   text-align: center;
+   padding:40px 20px;
+}
+
+.topic h2{
+   font-size:50px;
+   border-bottom:2px solid #5c6956;
+   color:#f9f9eb;
+}
+
+.topic p{
+   font-size:1.3rem;
+   padding-top:10px;
+   color:#f9f9eb;
+}
+
+.topic-backing{
+   background-color: rgba(0, 0, 0, 0.5);
+   height: 200px;
+}
+
 /* footer with social links */
 
 footer {
