@@ -165,6 +165,29 @@ header {
    padding:30px;
 }
 
+/* footer with social links */
+
+footer{
+   width:100%;
+   background-color: #5c6956;
+   margin-top: 30px;
+}
+
+#social-links{
+   text-align: center;
+   padding:20px;
+}
+
+#social-links li{
+   font-size: 40px;
+   display: inline;
+}
+
+#social-links a{
+   color:#f9f9eb;
+   margin:4%;
+}
+
 /*  media queries */
 
 /* for medium to large screens */
