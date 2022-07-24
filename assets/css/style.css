@@ -134,7 +134,7 @@ header {
 
 .info {
    text-align: center;
-   padding: 40px;
+   padding: 40px 40px 0 40px;
 }
 
 .info h2 {
@@ -156,6 +156,13 @@ header {
 
 .info a{
    color:#101010;
+}
+
+/* how you can help section */
+
+.info h3{
+   font-size: 24px;
+   padding:30px;
 }
 
 /*  media queries */
