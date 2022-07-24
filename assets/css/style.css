@@ -109,7 +109,7 @@ header {
    width: 90%;
    position: absolute;
    left: 20px;
-   margin-top:20px;
+   margin-top: 20px;
 }
 
 #about-us h2 {
@@ -128,6 +128,29 @@ header {
    letter-spacing: 2px;
 }
 
+/* middle section */
+
+.info {
+   text-align: center;
+   padding: 40px;
+}
+
+.info h2 {
+   margin-bottom: 20px;
+   font-size: 35px;
+   border-bottom: 2px solid #5c6956;
+}
+
+.info p {
+   font-size: 1.3rem;
+   color: #101010;
+}
+
+#rhino-middle {
+   width: 100%;
+   background-size: cover;
+   margin-top: 40px;
+}
 
 /*  media queries */
 
@@ -170,7 +193,7 @@ header {
    .about-section {
       margin-top: 150px;
    }
-   
+
    #hero-image {
       height: 550px;
       width: 100%;
@@ -178,33 +201,33 @@ header {
       background-size: cover;
       position: relative;
    }
-   
+
    #about-us {
       height: 250px;
       width: 35%;
       position: absolute;
       left: 40px;
-      margin-top:40px;
+      margin-top: 40px;
    }
-   
+
    #about-us h2 {
       color: #f9f9eb;
       padding: 10px;
-      font-size:35px;
+      font-size: 35px;
    }
-   
+
    #cover-color {
       background-color: rgba(0, 0, 0, 0.2);
       width: inherit;
       height: inherit;
    }
-   
+
    #about-us p {
       color: #f9f9eb;
       letter-spacing: 2px;
-      font-size:1.3rem;
+      font-size: 1.3rem;
    }
-   
+
 }
 
 /* for large screens 1080px and above */
@@ -248,7 +271,7 @@ header {
    .about-section {
       margin-top: 98px;
    }
-   
+
    #hero-image {
       height: 600px;
       width: 100%;
@@ -256,19 +279,19 @@ header {
       background-size: cover;
       position: relative;
    }
-   
+
    #about-us {
       height: 250px;
       width: 35%;
       position: absolute;
       left: 40px;
-      margin-top:40px;
+      margin-top: 40px;
    }
-   
+
    #about-us h2 {
       color: #f9f9eb;
       padding: 10px;
-      font-size:35px;
+      font-size: 35px;
    }
 
    #cover-color {
@@ -276,11 +299,11 @@ header {
       width: inherit;
       height: inherit;
    }
-   
+
    #about-us p {
       color: #f9f9eb;
       letter-spacing: 2px;
-      font-size:1.3rem;
+      font-size: 1.3rem;
    }
 
 }
