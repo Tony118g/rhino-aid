@@ -14,7 +14,7 @@
 
 /* general styles */
 
-body{
+body {
    background-color: #f9f9eb;
 }
 
@@ -36,7 +36,7 @@ header {
    background-color: #5c6956;
    position: fixed;
    top: 0;
-   z-index:10;
+   z-index: 10;
 }
 
 #logo {
@@ -126,7 +126,7 @@ header {
    background-color: rgba(0, 0, 0, 0.5);
    width: inherit;
    height: inherit;
-   margin-top:70px;
+   margin-top: 70px;
 }
 
 #about-us p {
@@ -158,38 +158,38 @@ header {
    margin-top: 40px;
 }
 
-.info a{
-   color:#101010;
+.info a {
+   color: #101010;
 }
 
 /* how you can help section */
 
-.info h3{
+.info h3 {
    font-size: 24px;
-   padding:30px;
+   padding: 30px;
 }
 
 /* footer with social links */
 
-footer{
-   width:100%;
+footer {
+   width: 100%;
    background-color: #5c6956;
    margin-top: 30px;
 }
 
-#social-links{
+#social-links {
    text-align: center;
-   padding:20px;
+   padding: 20px;
 }
 
-#social-links li{
+#social-links li {
    font-size: 40px;
    display: inline;
 }
 
-#social-links a{
-   color:#f9f9eb;
-   margin:4%;
+#social-links a {
+   color: #f9f9eb;
+   margin: 4%;
 }
 
 /*  media queries */
