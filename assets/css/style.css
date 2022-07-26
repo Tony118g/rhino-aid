@@ -174,7 +174,7 @@ header {
 .topic-section {
    background: url("../images/topic-section-background.jpg") no-repeat center center;
    background-size: cover;
-   height: 200px;
+   height: 250px;
 }
 
 .topic {
@@ -196,7 +196,7 @@ header {
 
 .topic-backing {
    background-color: rgba(0, 0, 0, 0.5);
-   height: 200px;
+   height: inherit;
 }
 
 /* footer with social links */
