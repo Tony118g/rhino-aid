@@ -120,6 +120,7 @@ header {
 #about-us h2 {
    color: #f9f9eb;
    padding: 10px;
+   font-size: 35px;
 }
 
 #cover-color {
@@ -145,6 +146,8 @@ header {
    margin-bottom: 20px;
    font-size: 35px;
    border-bottom: 2px solid #101010;
+   background-color: rgba(92, 105, 86, 0.7);
+   padding:20px 0 10px 0;
 }
 
 .info p {
