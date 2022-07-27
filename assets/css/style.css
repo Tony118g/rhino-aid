@@ -223,7 +223,7 @@ header {
 
 #gallery-pics{
    background-color: #8E815C;
-   margin:130px 0 -30px 0;
+   margin:70px 0 -30px 0;
 }
 
 #gallery-pics img{
@@ -256,9 +256,9 @@ footer {
 
 /*  media queries */
 
-/* for very small screens of 375px and below */
+/* for very small screens of 390px and below */
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:390px) {
 
    .about-section {
       margin-top: 130px;
@@ -275,7 +275,7 @@ footer {
 
 /* for medium to large screens */
 
-@media screen and (min-width:790px) {
+@media screen and (min-width:650px) {
 
    #large-nav {
       display: block;
@@ -349,9 +349,9 @@ footer {
 
 }
 
-/* for large screens 1080px and above */
+/* for large screens 950px and above */
 
-@media screen and (min-width:1080px) {
+@media screen and (min-width:950px) {
 
    #large-nav {
       display: inline-block;
