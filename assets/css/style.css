@@ -271,6 +271,12 @@ footer {
    .topic h2 {
       font-size: 40px;
    }
+
+   /* gallery- very small screens*/
+
+   #gallery-pics{
+      margin-top:130px;
+   }
 }
 
 /* for medium to large screens */
@@ -346,6 +352,14 @@ footer {
       letter-spacing: 2px;
       font-size: 1.3rem;
    }
+
+/* gallery- medium screens */
+
+#gallery-pics{
+   margin-top:150px;
+   column-count: 2;
+   column-gap:0;
+}
 
 }
 
@@ -423,6 +437,14 @@ footer {
       color: #f9f9eb;
       letter-spacing: 2px;
       font-size: 1.3rem;
+   }
+
+   /* gallery- large screens*/
+
+   #gallery-pics{
+      margin-top:98px;
+      column-count: 3;
+      column-gap:0;
    }
 
 }
