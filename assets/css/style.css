@@ -256,9 +256,9 @@ footer {
 
 /*  media queries */
 
-/* for very small screens of 390px and below */
+/* for very small screens of 375px and below */
 
-@media screen and (max-width:390px) {
+@media screen and (max-width:375px) {
 
    .about-section {
       margin-top: 130px;
