@@ -110,11 +110,10 @@ header {
 }
 
 #about-us {
-   height: 250px;
    width: 90%;
    position: absolute;
    left: 20px;
-   margin-top: 70px;
+   margin-top: 40px;
 }
 
 #about-us h2 {
@@ -133,6 +132,7 @@ header {
 #about-us p {
    color: #f9f9eb;
    letter-spacing: 2px;
+   font-size:1.1rem;
 }
 
 /* middle section */
@@ -324,6 +324,10 @@ footer {
       margin-top: 130px;
    }
 
+   #about-us p{
+      font-size:1rem;
+   }
+
    #logo {
       width: 50%;
    }
@@ -341,7 +345,7 @@ footer {
 
 /* for medium to large screens */
 
-@media screen and (min-width:650px) {
+@media screen and (min-width:720px) {
 
    #large-nav {
       display: block;
@@ -388,11 +392,7 @@ footer {
    }
 
    #about-us {
-      height: 250px;
-      width: 35%;
-      position: absolute;
-      left: 40px;
-      margin-top: 40px;
+      width: 40%;
    }
 
    #about-us h2 {
@@ -410,7 +410,6 @@ footer {
    #about-us p {
       color: #f9f9eb;
       letter-spacing: 2px;
-      font-size: 1.3rem;
    }
 
 /* gallery- medium screens */
@@ -423,9 +422,9 @@ footer {
 
 }
 
-/* for large screens 950px and above */
+/* for large screens 1020px and above */
 
-@media screen and (min-width:950px) {
+@media screen and (min-width:1020px) {
 
    #large-nav {
       display: inline-block;
@@ -474,11 +473,7 @@ footer {
    }
 
    #about-us {
-      height: 250px;
-      width: 35%;
-      position: absolute;
-      left: 40px;
-      margin-top: 40px;
+     margin-top: 80px;
    }
 
    #about-us h2 {
