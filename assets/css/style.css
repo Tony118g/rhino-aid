@@ -132,7 +132,7 @@ header {
 #about-us p {
    color: #f9f9eb;
    letter-spacing: 2px;
-   font-size:1.1rem;
+   font-size: 1.1rem;
 }
 
 /* middle section */
@@ -147,7 +147,7 @@ header {
    font-size: 35px;
    border-bottom: 2px solid #101010;
    background-color: rgba(92, 105, 86, 0.7);
-   padding:20px 0 10px 0;
+   padding: 20px 0 10px 0;
 }
 
 .info p {
@@ -165,14 +165,14 @@ header {
    color: #101010;
    letter-spacing: 2px;
    font-family: merriweather, sans serif;
-   padding:5px;
+   padding: 5px;
    border-radius: 100px;
-   text-decoration:underline;
+   text-decoration: underline;
 }
 
-.info a:hover{
+.info a:hover {
    background-color: #5c6956;
-   color:#f9f9eb;
+   color: #f9f9eb;
 }
 
 /* how you can help section */
@@ -212,105 +212,103 @@ header {
    height: inherit;
 }
 
-#help-nav li{
+#help-nav li {
    display: inline-block;
-   width:33%;
+   width: 33%;
    text-align: center;
-   float:left;
+   float: left;
 }
 
-#help-nav a{
-   color:#f9f9eb;
-   font-size:50px ;
+#help-nav a {
+   color: #f9f9eb;
+   font-size: 50px;
 }
 
-#help-nav a:hover{
-   color:#5c6956;
-   font-size:75px;
+#help-nav a:hover {
+   color: #5c6956;
+   font-size: 75px;
 }
+
 /* options section for help out page */
 
-.help-way a{
-   padding:5px 20px 5px 20px;
+.help-way a {
+   padding: 5px 20px 5px 20px;
    border-radius: 100px;
-   display:inline-block;
-   width:230px;
+   display: inline-block;
+   width: 230px;
 }
 
-.help-way li{
-   margin:20px auto;
+.help-way li {
+   margin: 20px auto;
 }
 
 /* gallery */
 
-#gallery-pics{
+#gallery-pics {
    background-color: #8E815C;
-   margin:70px 0 -30px 0;
+   margin: 70px 0 -30px 0;
 }
 
-#gallery-pics img{
-   width:95%;
-   padding:2.5% 2.5% 0 2.5%;
+#gallery-pics img {
+   width: 95%;
+   padding: 2.5% 2.5% 0 2.5%;
 }
 
 /* contact page */
 
-#contact{
-   background:url("../images/rhino-hind.jpg") no-repeat center center;
+#contact {
+   background: url("../images/rhino-hind.jpg") no-repeat center center;
    background-size: cover;
-   height:80vh;
-   margin:70px 0 -30px 0;
+   height: 80vh;
+   margin: 70px 0 -30px 0;
    position: relative;
 }
 
-#form-backing{
-   background-color:rgba(249, 249, 235, 0.5);
+#form-backing {
+   background-color: rgba(249, 249, 235, 0.5);
    text-align: center;
-   width:80%;
-   height: 80%;
-   border:2px solid #101010;
-   position:absolute;
-   top:10%;
-   left:10%;
-   bottom:20%;
+   width: 80%;
+   max-width:600px;
+   height: fit-content;
+   border: 2px solid #101010;
+   position: absolute;
+   top: 5%;
+   left: 10%;
+   bottom: 20%;
 }
 
-#contact-form > h2{
-   margin:20px 0 20px 0;
+#contact-form>h2 {
+   margin: 20px 0 20px 0;
    font-size: 40px;
 }
 
-#contact-form > label{
+#contact-form>label {
    font-size: 1.1rem;
 }
 
-#contact-form{
-   color:#101010;
-}
-
-.input{
-   display:block;
-   width:80%;
+.input {
+   display: block;
+   width: 80%;
    height: 25px;
-   margin:0 auto;
-   border:1px solid #101010;
-   margin-top:10px;
-   margin-bottom:10px;
+   margin: 0 auto;
+   border: 1px solid #101010;
+   margin-top: 10px;
+   margin-bottom: 10px;
 }
 
-.submit{
+.submit {
    width: 100px;
-   height:30px;
-   margin:30px;
-   background-color:#5c6956;
-   border:2px solid #8E815C;
-   border-radius:10px;
+   height: 30px;
+   margin: 20px;
+   background-color: #5c6956;
+   border: 2px solid #8E815C;
+   border-radius: 10px;
 }
 
-#message-box{
-   width:80%;
-   margin:0 auto;
-   display:block;
+#message-box {
+   width: 80%;
+   margin: 0 auto;
+   display: block;
 }
 
 /* footer with social links */
@@ -346,8 +344,8 @@ footer {
       margin-top: 130px;
    }
 
-   #about-us p{
-      font-size:1rem;
+   #about-us p {
+      font-size: 1rem;
    }
 
    #logo {
@@ -358,10 +356,16 @@ footer {
       font-size: 40px;
    }
 
+   /* form- very small screens */
+
+   #contact {
+      margin: 130px 0 -30px 0;
+   }
+
    /* gallery- very small screens*/
 
-   #gallery-pics{
-      margin-top:130px;
+   #gallery-pics {
+      margin-top: 130px;
    }
 }
 
@@ -434,14 +438,23 @@ footer {
       letter-spacing: 2px;
    }
 
-/* gallery- medium screens */
+   /* gallery- medium screens */
 
-#gallery-pics{
-   margin-top:150px;
-   column-count: 2;
-   column-gap:0;
-}
+   #gallery-pics {
+      margin-top: 150px;
+      column-count: 2;
+      column-gap: 0;
+   }
 
+   /* form- medium screen  */
+
+   #form-backing{
+      top:10%;
+   }
+   
+   #contact {
+      margin: 150px 0 -30px 0;
+   }
 }
 
 /* for large screens 1020px and above */
@@ -495,7 +508,7 @@ footer {
    }
 
    #about-us {
-     margin-top: 80px;
+      margin-top: 80px;
    }
 
    #about-us h2 {
@@ -518,10 +531,15 @@ footer {
 
    /* gallery- large screens*/
 
-   #gallery-pics{
-      margin-top:98px;
+   #gallery-pics {
+      margin-top: 98px;
       column-count: 3;
-      column-gap:0;
+      column-gap: 0;
    }
 
+   /* form- medium screen  */
+
+   #contact {
+      margin: 100px 0 -30px 0;
+   }
 }
