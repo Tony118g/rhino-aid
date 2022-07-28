@@ -163,8 +163,16 @@ header {
 
 .info a {
    color: #101010;
+   letter-spacing: 2px;
    font-family: merriweather, sans serif;
-   font-size:1.2rem;
+   padding:5px;
+   border-radius: 100px;
+   text-decoration:underline;
+}
+
+.info a:hover{
+   background-color: #5c6956;
+   color:#f9f9eb;
 }
 
 /* how you can help section */
@@ -205,6 +213,17 @@ header {
 }
 
 /* options section for help out page */
+
+.help-way a{
+   padding:5px 20px 5px 20px;
+   border-radius: 100px;
+   display:inline-block;
+   width:230px;
+}
+
+.help-way li{
+   margin:20px auto;
+}
 
 /* gallery */
 
