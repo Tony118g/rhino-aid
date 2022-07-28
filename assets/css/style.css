@@ -212,6 +212,22 @@ header {
    height: inherit;
 }
 
+#help-nav li{
+   display: inline-block;
+   width:33%;
+   text-align: center;
+   float:left;
+}
+
+#help-nav a{
+   color:#f9f9eb;
+   font-size:50px ;
+}
+
+#help-nav a:hover{
+   color:#5c6956;
+   font-size:75px;
+}
 /* options section for help out page */
 
 .help-way a{
