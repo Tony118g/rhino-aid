@@ -206,19 +206,6 @@ header {
 
 /* options section for help out page */
 
-.option-link {
-   background-color: #8E815C;
-   border: 2px solid #5c6956;
-   display: block;
-   line-height: 40px;
-   margin-top:20px;
-}
-
-.option-link:hover{
-   background-color:#5c6956;
-   color:#f9f9eb;
-}
-
 /* gallery */
 
 #gallery-pics{
