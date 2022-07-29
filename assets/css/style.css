@@ -256,7 +256,7 @@ header {
 #contact {
    background: url("../images/rhino-hind.jpg") no-repeat center center;
    background-size: cover;
-   height: 40em;
+   height:40em;
    margin: 70px 0 -30px 0;
    position: relative;
 }
@@ -306,6 +306,13 @@ header {
    width: 80%;
    margin: 0 auto;
    display: block;
+}
+
+textarea {
+   resize: none;
+   font-family: inherit;
+   font-size:inherit;
+   text-indent: 10px;
 }
 
 /* footer with social links */
