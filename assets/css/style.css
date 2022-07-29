@@ -16,6 +16,7 @@
 
 body {
    background-color: #f9f9eb;
+   font-family: merriweather, sans serif;
 }
 
 h2,
@@ -23,10 +24,6 @@ h3 {
    font-family: special elite, sans-serif;
    font-weight: 100;
    letter-spacing: 2px;
-}
-
-body {
-   font-family: merriweather, sans serif;
 }
 
 /* header, logo and navbar */
@@ -168,6 +165,7 @@ header {
    padding: 5px;
    border-radius: 100px;
    text-decoration: underline;
+   display: inline-block;
 }
 
 .info a:hover {
@@ -234,7 +232,6 @@ header {
 .help-way a {
    padding: 5px 20px 5px 20px;
    border-radius: 100px;
-   display: inline-block;
    width: 230px;
 }
 
