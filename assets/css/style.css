@@ -337,32 +337,12 @@ footer {
 
 @media screen and (max-width:375px) {
 
-   .about-section {
-      margin-top: 130px;
-   }
-
    #about-us p {
       font-size: 1rem;
    }
 
    #logo {
-      width: 50%;
-   }
-
-   .topic h2 {
-      font-size: 40px;
-   }
-
-   /* form- very small screens */
-
-   #contact {
-      margin: 130px 0 -30px 0;
-   }
-
-   /* gallery- very small screens*/
-
-   #gallery-pics {
-      margin-top: 130px;
+      font-size:30px;
    }
 }
 
