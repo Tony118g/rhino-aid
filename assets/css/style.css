@@ -140,11 +140,11 @@ header {
 }
 
 .info h2 {
-   margin-bottom: 20px;
+   margin: 0 auto 20px auto;
    font-size: 35px;
    border-bottom: 2px solid #101010;
-   background-color: rgba(92, 105, 86, 0.7);
-   padding: 20px 0 10px 0;
+   padding: 5px 10px 0 10px;
+   width:fit-content;
 }
 
 .info p {
