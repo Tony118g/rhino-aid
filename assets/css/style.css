@@ -101,7 +101,7 @@ header {
 #hero-image {
    height: 400px;
    width: 100%;
-   background: url("../images/hero-image.jpg") no-repeat center center;
+   background: url("../images/background-hero-mobile.jpg") no-repeat center center;
    background-size: cover;
    position: relative;
 }
@@ -183,7 +183,7 @@ header {
 /* topic section for help out page */
 
 .topic-section {
-   background: url("../images/topic-section-background.jpg") no-repeat center center;
+   background: url("../images/background-hero-mobile.jpg") no-repeat center center;
    background-size: cover;
    height: 250px;
 }
@@ -432,7 +432,7 @@ footer {
    #hero-image {
       height: 550px;
       width: 100%;
-      background: url("../images/hero-image.jpg") no-repeat center center;
+      background: url("../images/background-hero.jpg") no-repeat center center;
       background-size: cover;
       position: relative;
    }
@@ -522,7 +522,7 @@ footer {
    #hero-image {
       height: 600px;
       width: 100%;
-      background: url("../images/hero-image.jpg") no-repeat center center;
+      background: url("../images/background-hero.jpg") no-repeat center center;
       background-size: cover;
       position: relative;
    }
