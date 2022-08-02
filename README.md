@@ -1,6 +1,23 @@
 # Rhino Aid
 
-Rhino Aid is a site that aims to provide people with information about rhino in Africa and how they can help save them from extinction. The site will target people who are interested in the conservation of rhinoceros in Africa and seek ways in which they can help protect them. Rhino Aid will be useful for users to gain knowledge about rhino in Africa and find out how they can take part in helping them.
+Rhino Aid is a site that aims to provide people with information about rhino in Africa and how they can help save them from extinction. The site will target people who are interested in the conservation of rhinoceros and seek ways in which they can help protect them. Rhino Aid will be useful for users to gain knowledge about rhino in Africa and find out how they can take part in conserving them.
+
+The live site is deployed at [Rhino Aid](https://tony118g.github.io/rhino-aid/index.html)
+
+![Am i Responsive screenshot of rhino aid ](am-i-resposive-screenshot.png)
+
+## Contents
+
+## Site Structure
+
+Rhino Aid is a site that consists of 4 main pages which are presented in the navigation menu. The main landing page is the home page with primary information. The user may then opt to navigate to any of the other pages ([gallery](https://tony118g.github.io/rhino-aid/gallery.html), [help-out](https://tony118g.github.io/rhino-aid/help-out.html) and [contact](https://tony118g.github.io/rhino-aid/contact.html)). The navigation menu sticks to the top of each page to allow easy access for users to navigate intuitively. The site also contains a form-sent page which is not available in the navigation menu and is presented to the user on completion and submition of the contact form in order to confirm the form submition.
+
+## Font
+
+* The font used for the logo and headings is "special elite" with "sans-serif" as secondary font.
+    * This font gives a rustic feel to the site and resembles nature in a way to complement the website theme.
+* The font used in the body is "merriweather" also with "sans-serif" as secondary font.
+    * This font complements the headings and logo and is well defined making it easy to read.
 
 ## User Experience
 
