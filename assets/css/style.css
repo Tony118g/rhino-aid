@@ -308,6 +308,10 @@ header {
    border-radius: 10px;
 }
 
+.submit:hover{
+   color:#f9f9eb;
+}
+
 #message-box {
    width: 80%;
    margin: 0 auto;
@@ -326,7 +330,7 @@ textarea {
 #form-sent-message {
    background: url("../images/rhino-hind.jpg") no-repeat center center;
    background-size: cover;
-   height: 100vh;
+   height: calc(100vh - 160px);
    margin: 70px 0 -30px 0;
    position: relative;
 }
@@ -478,11 +482,12 @@ footer {
       top: 10%;
    }
 
-   #contact {
+   #contact, #form-sent-message {
       margin: 150px 0 -30px 0;
       height: calc(100vh - 240px);
       overflow: auto;
    }
+
 }
 
 /* for large screens 1020px and above */
@@ -567,7 +572,7 @@ footer {
 
    /* form- medium screen  */
 
-   #contact {
+   #contact, #form-sent-message {
       margin: 100px 0 -30px 0;
       height: calc(100vh - 190px);
    }
