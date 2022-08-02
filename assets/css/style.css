@@ -251,6 +251,7 @@ header {
 #gallery-pics {
    background-color: #8E815C;
    margin: 70px 0 -30px 0;
+   padding:10px 0;
 }
 
 #gallery-pics img {
