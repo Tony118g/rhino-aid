@@ -88,6 +88,13 @@ header {
    display: block;
 }
 
+.active{
+   border-bottom:5px double #8E815C ;
+}
+
+#navbar li:hover{
+   border-bottom:4px solid #8E815C;
+}
 #large-nav {
    display: none;
 }
