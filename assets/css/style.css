@@ -306,10 +306,11 @@ header {
    background-color: #5c6956;
    border: 2px solid #8E815C;
    border-radius: 10px;
+   color:#f9f9eb;
 }
 
 .submit:hover{
-   color:#f9f9eb;
+   color:#101010;
 }
 
 #message-box {
