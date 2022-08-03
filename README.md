@@ -2,9 +2,9 @@
 
 Rhino Aid is a site that aims to provide people with information about rhino in Africa and how they can help save them from extinction. The site will target people who are interested in the conservation of rhinoceros and seek ways in which they can help protect them. Rhino Aid will be useful for users to gain knowledge about rhino in Africa and find out how they can take part in conserving them.
 
-The live site is deployed at [Rhino Aid](https://tony118g.github.io/rhino-aid/index.html)
+Visit the live site at [Rhino Aid](https://tony118g.github.io/rhino-aid/index.html)
 
-![Am i Responsive screenshot of rhino aid ](am-i-resposive-screenshot.png)
+![Am i Responsive screenshot of rhino aid ](assets/images/am-i-responsive-screenshot.png)
 
 ## Contents
 
@@ -19,14 +19,25 @@ Rhino Aid is a site that consists of 4 main pages which are presented in the nav
 * The font used in the body is "merriweather" also with "sans-serif" as secondary font.
     * This font complements the headings and logo and is well defined making it easy to read.
 
+## Colour Pallete
+
+![Picture of the colour pallete used  ](assets/images/colour-pallete.png)
+
+The colour scheme was chosen starting with a shade of green and then using [coolers](https://coolors.co/) I found colours that compliment it and are conjusive with the rhino theme.The ebony is used in the header and footer as well as a few borders and backgrounds on links and buttons. The ivory works well throughout as a background colour and font colour. The smokey black is used for font colour throughout creating good contrast. The gold fusion is used mainly on the gallery page background to make the images stand out and it works well with the colours in the images themselves, it is also used on a few borders.
+
 ## User Experience
 
 ## Features
+
+Rhino Aid is designed to be simple and easy to use, it is made up of various features for both small and large screens that contribute towards this such as a navigation bar/hamburger menu and well organised page content with links to direct users to appropriate pages.
 ### Existing Features
 * Navigation Bar and Hamburger Menu
     * Throughout all pages is a fully responsive navigation bar which collapses into a hamburger menu on smaller screens.It includes links to each of the pages on the website.
+    * It is contained in the header which is fixed to the top of the viewport which means it is always accessable to users no matter where they are on the page.
     * This will allow users to navigate between pages on all screen sizes.
 
+    ![Screenshot of navigation bar ](assets/images/navigation-bar.png)
+    ![Screenshot of hamburger menu ](assets/images/hamburger-menu.png)
 * Landing page image and about us
 
     * On the landing page is a full screen image with text over it describing what rhino aid is and what it provides.
