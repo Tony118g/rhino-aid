@@ -4,7 +4,7 @@ Rhino Aid is a site that aims to provide people with information about rhino in 
 
 Visit the live site at [Rhino Aid](https://tony118g.github.io/rhino-aid/index.html)
 
-![Am i Responsive screenshot of rhino aid ](assets/images/am-i-responsive-screenshot.png)
+![Am i Responsive screenshot of rhino aid ](assets/readme-images/am-i-responsive-screenshot.png)
 
 ## Contents
 
@@ -40,6 +40,27 @@ Visit the live site at [Rhino Aid](https://tony118g.github.io/rhino-aid/index.ht
 
 ## User Experience
 
+### Wireframes
+
+I created basic wireframes of how I wanted the layout of the site to look on diferent devices. This was done using [Balsamiq](https://balsamiq.com/).
+
+* Wireframes were created for the home, gallery and contact page. The layouts for the other pages were adopted from these so I did not find it neccessary to create separate wireframes that were nearly identical.
+* The final version of the site differs in some ways due to changes that were made during the development.
+    * The biggest difference is the conversion of two separate pages for "volunteer" and "donate" into a single "help-out" page.
+    * This change was made to create a better user experience by providing all relevant information on how they can help on a single page, saving the user having to navigate back and forth and preventing repetition of certain content.
+
+#### Home page wireframes
+
+![wireframes for the home page  ](assets/readme-images/wireframes-home-page.png)
+
+#### Gallery page wireframes
+
+![wireframes for the gallery page  ](assets/readme-images/wireframes-gallery-page.png)
+
+#### Contact page wireframes
+
+![wireframes for the contact page  ](assets/readme-images/wireframes-contact-page.png)
+
 ### Site Structure 
 
 Rhino Aid is a site that consists of 4 main pages which are presented in the navigation menu. The main landing page is the home page with primary information. The user may then opt to navigate to any of the other pages ([gallery](https://tony118g.github.io/rhino-aid/gallery.html), [help-out](https://tony118g.github.io/rhino-aid/help-out.html) and [contact](https://tony118g.github.io/rhino-aid/contact.html)). The navigation menu sticks to the top of each page to allow easy access for users to navigate intuitively. The site also contains a form-sent page which is not available in the navigation menu and is presented to the user on completion and submition of the contact form in order to confirm the form submission.
@@ -57,7 +78,7 @@ Rhino Aid is a site that consists of 4 main pages which are presented in the nav
 
 ### Colour Pallete
 
-![Picture of the colour pallete used  ](assets/images/colour-pallete.png)
+![Picture of the colour pallete used  ](assets/readme-images/colour-pallete.png)
 
 The colour scheme was chosen starting with a shade of green and then using [coolers](https://coolors.co/) I found colours that compliment it and are conjusive with the rhino theme.The ebony is used in the header and footer as well as a few borders and backgrounds on links and buttons. The ivory works well throughout as a background colour and font colour. The smokey black is used for font colour throughout creating good contrast. The gold fusion is used mainly on the gallery page background to make the images stand out and it works well with the colours in the images themselves, it is also used on a few borders.
 
@@ -75,8 +96,8 @@ Rhino Aid is designed to be simple and easy to use, it is made up of various fea
     * It is contained in the header which is fixed to the top of the viewport which means it is always accessable to users no matter where they are on the page.
     * This will allow users to navigate between pages on all screen sizes.
 
-![Screenshot of navigation bar ](assets/images/navigation-bar.png)
-![Screenshot of hamburger menu ](assets/images/hamburger-menu.png)
+![Screenshot of navigation bar ](assets/readme-images/navigation-bar.png)
+![Screenshot of hamburger menu ](assets/readme-images/hamburger-menu.png)
 
 [Back to top](#contents)
 
@@ -85,22 +106,22 @@ Rhino Aid is designed to be simple and easy to use, it is made up of various fea
     * The background image changes on different screen sizes to ensure there is no distraction from the foreground text.
     * This introduces the user to rhino aid and presents them with information on what to expect in the page.
     
-![Screenshot of about us section  ](assets/images/about-us.png)
-![Screenshot of about us section on small screens](assets/images/about-us-mobile.png)
+![Screenshot of about us section  ](assets/readme-images/about-us.png)
+![Screenshot of about us section on small screens](assets/readme-images/about-us-mobile.png)
 
 [Back to top](#contents)
 
 * #### Middle section (The problem)
     * This section provides the user with information about the problem rhino in africa are facing with a link to an external website that opens in a separate tab where they can find more details and information on the topic.
 
-![Screenshot of middle section (the problem)  ](assets/images/the-problem.png)
+![Screenshot of middle section (the problem)  ](assets/readme-images/the-problem.png)
 
 [Back to top](#contents)
 
 * #### How You Can Help Section
    * This section provides a summary of how the users can help conserve rhino and contains a link which directs the user to the help-out page for more information.
 
-![Screenshot of how you can help section  ](assets/images/how-you-can-help.png)
+![Screenshot of how you can help section  ](assets/readme-images/how-you-can-help.png)
     
 [Back to top](#contents)
 
@@ -108,7 +129,7 @@ Rhino Aid is designed to be simple and easy to use, it is made up of various fea
     * The gallery is a page which users have access to through the navbar or hamburger menu.
     * It is useful to users for viewing images of rhino and provides a visual aspect to the site and its intentions. 
 
-![Screenshot of gallery page ](assets/images/gallery-screenshot.png)
+![Screenshot of gallery page ](assets/readme-images/gallery-screenshot.png)
 
 [Back to top](#contents)
 
@@ -119,7 +140,7 @@ Rhino Aid is designed to be simple and easy to use, it is made up of various fea
     * The first two sections (volunteer and donate) contain links to external websites to help users further along the process of volunteering or donating.
     * This page is useful to users to gain valuable information about how exactly they can can help and aids in the process of choosing which way is best for that user.
 
-![Screenshot of help-out page ](assets/images/help-out-screenshot.png)
+![Screenshot of help-out page ](assets/readme-images/help-out-screenshot.png)
 
 [Back to top](#contents)
 
@@ -130,7 +151,7 @@ Rhino Aid is designed to be simple and easy to use, it is made up of various fea
     * Upon completion the user clicks the submit button which directs them to a page confirming the form has been sent.
     * This page is useful as it creates a way for users to stay in touch and communicate directly with rhino aid.
 
-![Screenshot of contact page ](assets/images/contact-screenshot.png)
+![Screenshot of contact page ](assets/readme-images/contact-screenshot.png)
 
 [Back to top](#contents)
 
@@ -139,7 +160,7 @@ Rhino Aid is designed to be simple and easy to use, it is made up of various fea
     * It conveys a message to the user thanking them for getting in touch and stating that rhino aid will reply in due time.
     * This page is useful to users as it provides confirmation that their form and information has been submitted and provides the user with a sense of engagement.
 
-![Screenshot of form-sent page ](assets/images/form-sent-screenshot.png)
+![Screenshot of form-sent page ](assets/readme-images/form-sent-screenshot.png)
 
 [Back to top](#contents)
 
@@ -147,7 +168,7 @@ Rhino Aid is designed to be simple and easy to use, it is made up of various fea
     * The footer is located at the bottom of each page and is identical througout the site.
     * It provides the user with social media links that open in a separate tab and helps the user stay in contact through social media.
 
-![Screenshot of footer  ](assets/images/footer.png)
+![Screenshot of footer  ](assets/readme-images/footer.png)
 
 [Back to top](#contents)
 
@@ -189,7 +210,7 @@ Rhino Aid is designed to be simple and easy to use, it is made up of various fea
 
 The repository link is [here](https://github.com/Tony118g/rhino-aid)
 
-![Screenshot of github pages (deployment) ](assets/images/deployment-screenshot.png)
+![Screenshot of github pages (deployment) ](assets/readme-images/deployment-screenshot.png)
 
 [Back to top](#contents)
 
@@ -201,7 +222,7 @@ The repository link is [here](https://github.com/Tony118g/rhino-aid)
     2. Click on the "fork" tab.
     3. Click on "create fork".
 
-![Screenshot of github pages (forking) ](assets/images/forking-screenshot.png)
+![Screenshot of github pages (forking) ](assets/readme-images/forking-screenshot.png)
 
 [Back to top](#contents)
 
@@ -218,7 +239,7 @@ The repository link is [here](https://github.com/Tony118g/rhino-aid)
     E.g.  "git clone https://....."
     7. Press enter to create the clone.
 
-![Screenshot of github pages (cloning) ](assets/images/cloning-screenshot.png)
+![Screenshot of github pages (cloning) ](assets/readme-images/cloning-screenshot.png)
 
 [Back to top](#contents)
 
