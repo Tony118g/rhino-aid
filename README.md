@@ -15,7 +15,7 @@ Visit the live site at [Rhino Aid](https://tony118g.github.io/rhino-aid/index.ht
 
 * [Features](#features)
     * [existing features](#existing-features)
-        * [Navigation Bar and Hamburger Menu](#navigation-bar-and-hamurger-menu)
+        * [Navigation Bar and Hamburger Menu](#navigation-bar-and-hamburger-menu)
         * [About Us section](#about-us-section)
         * [Middle Section (the problem)](#middle-section-the-problem)
         * [How You Can Help section](#how-you-can-help-section)
@@ -27,6 +27,8 @@ Visit the live site at [Rhino Aid](https://tony118g.github.io/rhino-aid/index.ht
     * [Future Features](#future-features)
 
 * [Technologies Used](#technologies-used)
+
+* [Testing](#testing)
 
 * [Deployment](#deployment)
     * [Deploying the Site](#deploying-the-site)
@@ -40,7 +42,11 @@ Visit the live site at [Rhino Aid](https://tony118g.github.io/rhino-aid/index.ht
 
 ## User Experience
 
-### Wireframes
+### Site Structure 
+
+Rhino Aid is a site that consists of 4 main pages which are presented in the navigation menu. The main landing page is the home page with primary information. The user may then opt to navigate to any of the other pages ([gallery](https://tony118g.github.io/rhino-aid/gallery.html), [help-out](https://tony118g.github.io/rhino-aid/help-out.html) and [contact](https://tony118g.github.io/rhino-aid/contact.html)). The navigation menu sticks to the top of each page to allow easy access for users to navigate intuitively. The site also contains a form-sent page which is not available in the navigation menu and is presented to the user on completion and submition of the contact form in order to confirm the form submission.
+
+#### Wireframes
 
 I created basic wireframes of how I wanted the layout of the site to look on diferent devices. This was done using [Balsamiq](https://balsamiq.com/).
 
@@ -49,25 +55,21 @@ I created basic wireframes of how I wanted the layout of the site to look on dif
     * The biggest difference is the conversion of two separate pages for "volunteer" and "donate" into a single "help-out" page.
     * This change was made to create a better user experience by providing all relevant information on how they can help on a single page, saving the user having to navigate back and forth and preventing repetition of certain content.
 
-#### Home page wireframes
+##### Home page wireframes
 
 ![wireframes for the home page  ](assets/readme-images/wireframes-home-page.png)
 
-#### Gallery page wireframes
+##### Gallery page wireframes
 
 ![wireframes for the gallery page  ](assets/readme-images/wireframes-gallery-page.png)
 
-#### Contact page wireframes
+##### Contact page wireframes
 
 ![wireframes for the contact page  ](assets/readme-images/wireframes-contact-page.png)
 
-### Site Structure 
-
-Rhino Aid is a site that consists of 4 main pages which are presented in the navigation menu. The main landing page is the home page with primary information. The user may then opt to navigate to any of the other pages ([gallery](https://tony118g.github.io/rhino-aid/gallery.html), [help-out](https://tony118g.github.io/rhino-aid/help-out.html) and [contact](https://tony118g.github.io/rhino-aid/contact.html)). The navigation menu sticks to the top of each page to allow easy access for users to navigate intuitively. The site also contains a form-sent page which is not available in the navigation menu and is presented to the user on completion and submition of the contact form in order to confirm the form submission.
-
 [Back to top](#contents)
 
-### Font
+#### Font
 
 * The font used for the logo and headings is "special elite" with "sans-serif" as secondary font.
     * This font gives a rustic feel to the site and resembles nature in a way to complement the website theme.
@@ -196,6 +198,8 @@ Rhino Aid is designed to be simple and easy to use, it is made up of various fea
 [Back to top](#contents)
 
 ## Testing
+
+Please click [here](TESTING.md) for more information on testing Rhino Aid.
 
 ## Deployment
 
