@@ -47,8 +47,10 @@ header {
    line-height: 60px;
 }
 
-/* hamburger menu for small screens
- ( instructions and ideas on how to create a hamburger menu were taken from https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/ ) */
+/*
+ hamburger menu for small screens
+ ( instructions and ideas on how to create a hamburger menu were taken from https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/ ) 
+*/
 
 #burger-menu a {
    box-sizing: border-box;
@@ -92,10 +94,6 @@ header {
    border-bottom: 5px double #8E815C;
 }
 
-#navbar li:hover {
-   border-bottom: 4px solid #8E815C;
-}
-
 #large-nav {
    display: none;
 }
@@ -131,7 +129,6 @@ header {
    background-color: rgba(0, 0, 0, 0.5);
    width: inherit;
    height: inherit;
-   margin-top: 70px;
 }
 
 #about-us p {
@@ -140,7 +137,7 @@ header {
    font-size: 1.1rem;
 }
 
-/* middle section */
+/* general text content */
 
 .info {
    text-align: center;
@@ -160,12 +157,6 @@ header {
    color: #101010;
 }
 
-#rhino-middle {
-   width: 100%;
-   background-size: cover;
-   margin-top: 40px;
-}
-
 .info a {
    color: #101010;
    letter-spacing: 2px;
@@ -181,14 +172,7 @@ header {
    color: #f9f9eb;
 }
 
-/* how you can help section */
-
-.info h3 {
-   font-size: 24px;
-   padding: 30px;
-}
-
-/* topic section for help out page */
+/* help out page */
 
 .topic-section {
    background: url("../images/background-hero-mobile.jpg") no-repeat center center;
@@ -204,12 +188,6 @@ header {
 .topic h2 {
    font-size: 50px;
    border-bottom: 2px solid #5c6956;
-   color: #f9f9eb;
-}
-
-.topic p {
-   font-size: 1.3rem;
-   padding-top: 10px;
    color: #f9f9eb;
 }
 
@@ -233,8 +211,6 @@ header {
    color: #5c6956;
    font-size: 75px;
 }
-
-/* options section for help out page */
 
 .help-way a {
    padding: 5px 20px 5px 20px;
@@ -445,8 +421,6 @@ footer {
       margin-top: 20px;
    }
 
-   /* about us section resposiveness for medium screens */
-
    .about-section {
       margin-top: 150px;
    }
@@ -471,8 +445,7 @@ footer {
 
    #cover-color {
       background-color: rgba(0, 0, 0, 0.2);
-      width: inherit;
-      height: inherit;
+
    }
 
    #about-us p {
@@ -480,15 +453,11 @@ footer {
       letter-spacing: 2px;
    }
 
-   /* gallery- medium screens */
-
    #gallery-pics {
       margin-top: 150px;
       column-count: 2;
       column-gap: 0;
    }
-
-   /* form- medium screen  */
 
    #form-backing {
       top: 10%;
@@ -538,8 +507,6 @@ footer {
       margin-top: 20px;
    }
 
-   /* about us section resposiveness for large screens */
-
    .about-section {
       margin-top: 98px;
    }
@@ -562,27 +529,17 @@ footer {
       font-size: 35px;
    }
 
-   #cover-color {
-      background-color: rgba(0, 0, 0, 0.2);
-      width: inherit;
-      height: inherit;
-   }
-
    #about-us p {
       color: #f9f9eb;
       letter-spacing: 2px;
       font-size: 1.3rem;
    }
 
-   /* gallery- large screens*/
-
    #gallery-pics {
       margin-top: 98px;
       column-count: 3;
       column-gap: 0;
    }
-
-   /* form- medium screen  */
 
    #contact, #form-sent-message {
       margin: 100px 0 -30px 0;
