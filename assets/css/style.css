@@ -16,12 +16,12 @@
 
 body {
    background-color: #f9f9eb;
-   font-family: merriweather, sans serif;
+   font-family: merriweather, "sans serif";
 }
 
 h2,
 h3 {
-   font-family: special elite, sans-serif;
+   font-family: "special elite", "sans-serif";
    font-weight: 100;
    letter-spacing: 2px;
 }
@@ -43,14 +43,14 @@ header {
    letter-spacing: 2px;
    margin: 10px 0 0 20px;
    width: 80%;
-   font-family: special elite, sans-serif;
+   font-family: "special elite", "sans-serif";
    line-height: 60px;
 }
 
 /* hamburger menu for small screens
  ( instructions and ideas on how to create a hamburger menu were taken from https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/ ) */
 
-.burger-menu a {
+#burger-menu a {
    box-sizing: border-box;
    display: block;
    width: 100%;
@@ -78,13 +78,13 @@ header {
    display: none;
 }
 
-.burger-menu {
+#burger-menu {
    display: none;
    background-color: #5c6956;
    height: 100%;
 }
 
-#menu input:checked~.burger-menu {
+#menu input:checked~#burger-menu {
    display: block;
 }
 
@@ -169,7 +169,7 @@ header {
 .info a {
    color: #101010;
    letter-spacing: 2px;
-   font-family: merriweather, sans serif;
+   font-family: merriweather, "sans serif";
    padding: 5px;
    border-radius: 100px;
    text-decoration: underline;
