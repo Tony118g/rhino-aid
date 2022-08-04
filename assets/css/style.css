@@ -219,7 +219,6 @@ header {
 }
 
 #help-nav li {
-   display: inline-block;
    width: 33%;
    text-align: center;
    float: left;
@@ -345,6 +344,18 @@ textarea {
    background-color: rgba(249, 249, 235, 0.5);
    padding: 20px;
    border: 2px solid #101010;
+}
+
+#message-container a{
+   color:#101010;
+   border-radius: 100px;
+   text-decoration: underline;
+}
+
+#message-container a:hover {
+   background-color: #5c6956;
+   color: #f9f9eb;
+   padding:5px;
 }
 
 #form-sent-message h2 {
