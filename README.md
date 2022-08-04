@@ -42,6 +42,16 @@ Visit the live site at [Rhino Aid](https://tony118g.github.io/rhino-aid/index.ht
 
 ## User Experience
 
+### User Stories
+
+As a user I want to:
+* understand what the site is about and what it provides upon landing.
+* be able to navigate intuitively between pages.
+* gain knowledge about rhino and how I can get involved in conserving them.
+* easily obtain the information I am seeking.
+* be able to easily get in contact with Rhino Aid.
+* be able to connect with Rhino Aid via social media.
+
 ### Site Structure 
 
 Rhino Aid is a site that consists of 4 main pages which are presented in the navigation menu. The main landing page is the home page with primary information. The user may then opt to navigate to any of the other pages ([gallery](https://tony118g.github.io/rhino-aid/gallery.html), [help-out](https://tony118g.github.io/rhino-aid/help-out.html) and [contact](https://tony118g.github.io/rhino-aid/contact.html)). The navigation menu sticks to the top of each page to allow easy access for users to navigate intuitively. The site also contains a form-sent page which is not available in the navigation menu and is presented to the user on completion and submition of the contact form in order to confirm the form submission.

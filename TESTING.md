@@ -59,6 +59,37 @@ The Rhino Aid site was tested on the following browsers:
 
 No issues were found across these browsers and the appearance, functionality and responsiveness were consistent throughout.
 
+## Testing User Stories
+
+As a user I want to:
+
+* understand what the site is about and what it provides upon landing.
+    * The "Rhino Aid" logo provides an idea of the purpose of the site.
+    * Just below the header on the landing page is an "About us" section with a summary of what Rhino Aid is about and a background image of a rhino on large screens and rhino hide on small screens.
+
+* be able to navigate intuitively between pages.
+    * At the top of each page is an identical header with a navbar for large screens or hamburger menu for small screens.
+    * The header is fixed to the top of the viewport making it readily accessible to the user no matter where they are on the site.
+    * In the home page "how you can help" section is an additional link to the "help-out page" to assist users in knowing where to go next.
+
+* gain knowledge about rhino and how I can get involved in conserving them.
+    * The home page contains a summary about the rhino situation in Africa with a link to an external site which opens in a separate tab.
+        * This provides users with the option to discover more details about Rhino and their situation.
+    * The "Help out" page provides users with ways and options of how they can get involved, each with a description to allow the user to choose which would best suit them.
+        * Two of the options mentioned above contain links to suggested sites (that open in a separate tab) which users may use in order to help them further along each respective way of getting involved.
+
+* easily obtain the information I am seeking.
+    * The site is well layed out with a simple structure and intuitive design to ensure users can obtain the relevant information they require.
+
+* be able to easily get in contact with Rhino Aid.
+    * The "Contact" page is linked to in the navbar and/or hamburger menu making it easy to locate and access.
+    * The form is basic and well structured with an option to input a message that the user may want to send.
+    * Submit and reset buttons are clearly defined in the form.
+
+* be able to connect with Rhino Aid via social media.
+    * The footer is on every page and contains social media links.
+
+
 ## Known Bugs
 
 ### Resolved
