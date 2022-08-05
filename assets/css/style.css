@@ -193,7 +193,7 @@ header {
 /* to push down footer on screens with height > home page content */
 
 #container {
-   min-height: calc(100vh - 218px)
+   min-height: calc(100vh - 220px)
 }
 
 /* topic section for help out page - adopts similar style concepts to about us section background*/
@@ -480,6 +480,7 @@ footer {
 
    #about-us {
       width: 40%;
+      margin-top:80px;
    }
 
    #about-us p {
@@ -515,7 +516,7 @@ footer {
 
    #navbar {
       position: absolute;
-      bottom: 8px;
+      bottom: 12px;
       right: 0;
       margin-right: 40px;
    }
@@ -527,7 +528,7 @@ footer {
    /* about us section for large screens */
 
    .about-section {
-      margin-top: 98px;
+      margin-top: 100px;
    }
 
    #hero-image {
@@ -535,7 +536,7 @@ footer {
    }
 
    #about-us {
-      margin-top: 80px;
+      margin-top: 100px;
    }
 
    #about-us p {
@@ -545,7 +546,7 @@ footer {
    /* gallery for large screens*/
 
    #gallery-pics {
-      margin-top: 98px;
+      margin-top: 100px;
       column-count: 3;
       column-gap: 0;
    }
