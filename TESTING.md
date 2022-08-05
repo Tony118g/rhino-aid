@@ -165,7 +165,7 @@ The final results were overall very positive. An example of the home page lighth
 
 ### Peer Review
 
-In addition to the obove tests and procedures, the site was reviewed by my code institute peers and they tested it on their various devices and browsers.
+In addition to the above tests and procedures, the site was reviewed by my code institute peers and they tested it on their various devices and browsers.
 
 The majority of the feedback was positive with a few suggestions which I emplemented as follows:
 * To change the colour of the text in form submit buttons for better contrast.

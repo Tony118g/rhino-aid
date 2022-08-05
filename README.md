@@ -9,6 +9,7 @@ Visit the live site at [Rhino Aid](https://tony118g.github.io/rhino-aid/index.ht
 ## Contents
 
 * [User Experience](#user-experience)
+    * [User Stories](#user-stories)
     * [Site Structure](#site-structure)
         * [Wireframes](#wireframes)
     * [Design Choices](#design-choices)
@@ -21,7 +22,7 @@ Visit the live site at [Rhino Aid](https://tony118g.github.io/rhino-aid/index.ht
         * [About Us Section](#about-us-section)
         * [Middle Section (the problem)](#middle-section-the-problem)
         * [How You Can Help Section](#how-you-can-help-section)
-        * [Gallery](#gallery)
+        * [Gallery Page](#gallery-page)
         * [Help Out Page](#help-out-page)
         * [Contact Page](#contact-page)
         * [Form Sent Page](#form-sent-page)
@@ -146,7 +147,7 @@ Rhino Aid is designed to be simple and easy to use, it is made up of various fea
     
 [Back to top](#contents)
 
-* #### Gallery
+* #### Gallery Page
     * The gallery is a page which users have access to through the navbar or hamburger menu.
     * It is useful to users for viewing images of rhino and provides a visual aspect to the site and its intentions. 
 
@@ -158,6 +159,7 @@ Rhino Aid is designed to be simple and easy to use, it is made up of various fea
     * This a page dedicated to providing ways in which users can help conserve rhino.
     * The users can navigate to this page through the navigation bar/hamburger menu or through the link in the "how you can help" section of the home page.
     * It includes 3 different sections containing ways of helping, each with descriptions on how to go about it.
+    * At the top of the page under the topic "Help out" are 3 icons which link to each associated section within the page for added ease of access. Alternatively the user may scroll as the contents are not long enough to make it undesireable.
     * The first two sections (volunteer and donate) contain links to external websites to help users further along the process of volunteering or donating.
     * This page is useful to users to gain valuable information about how exactly they can help and aids in the process of choosing which way is best for that user.
 
