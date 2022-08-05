@@ -19,14 +19,13 @@ body {
    font-family: merriweather, "sans serif";
 }
 
-h2,
-h3 {
+h2, h3 {
    font-family: "special elite", "sans-serif";
    font-weight: 100;
    letter-spacing: 2px;
 }
 
-/* header, logo and navbar */
+/* header and logo */
 
 header {
    width: 100%;
@@ -47,8 +46,10 @@ header {
    line-height: 60px;
 }
 
-/* hamburger menu for small screens
- ( instructions and ideas on how to create a hamburger menu were taken from https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/ ) */
+/* 
+ navigation menu 
+ ( instructions and ideas on how to implement hamburger menu were taken from https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/ )
+  */
 
 #burger-menu a {
    box-sizing: border-box;
@@ -88,6 +89,8 @@ header {
    display: block;
 }
 
+/* to improve ux by providing active page and hover indications  */
+
 .active {
    border-bottom: 5px double #8E815C;
 }
@@ -96,15 +99,13 @@ header {
    border-bottom: 4px solid #8E815C;
 }
 
+/* hiding navbar for larger screens */
+
 #large-nav {
    display: none;
 }
 
-/* to push down footer on screens with height > page content */
-
-#container{
-   min-height:calc(100vh - 218px)
-}
+/* page contents */
 
 /* about us section */
 
@@ -120,6 +121,16 @@ header {
    position: relative;
 }
 
+/* covers background image with semi-transparent color to make background less distracting */
+
+#cover-color {
+   background-color: rgba(0, 0, 0, 0.5);
+   width: inherit;
+   height: inherit;
+}
+
+/* about us text content */
+
 #about-us {
    width: 90%;
    position: absolute;
@@ -133,19 +144,13 @@ header {
    font-size: 35px;
 }
 
-#cover-color {
-   background-color: rgba(0, 0, 0, 0.5);
-   width: inherit;
-   height: inherit;
-}
-
 #about-us p {
    color: #f9f9eb;
    letter-spacing: 2px;
    font-size: 1.1rem;
 }
 
-/* middle section */
+/* general text content */
 
 .info {
    text-align: center;
@@ -165,12 +170,6 @@ header {
    color: #101010;
 }
 
-#rhino-middle {
-   width: 100%;
-   background-size: cover;
-   margin-top: 40px;
-}
-
 .info a {
    color: #101010;
    letter-spacing: 2px;
@@ -186,19 +185,28 @@ header {
    color: #f9f9eb;
 }
 
-/* how you can help section */
-
 .info h3 {
    font-size: 24px;
    padding: 30px;
 }
 
-/* topic section for help out page */
+/* to push down footer on screens with height > home page content */
+
+#container {
+   min-height: calc(100vh - 218px)
+}
+
+/* topic section for help out page - adopts similar style concepts to about us section background*/
 
 .topic-section {
    background: url("../images/background-hero-mobile.jpg") no-repeat center center;
    background-size: cover;
    height: 250px;
+}
+
+.topic-backing {
+   background-color: rgba(0, 0, 0, 0.5);
+   height: inherit;
 }
 
 .topic {
@@ -218,10 +226,7 @@ header {
    color: #f9f9eb;
 }
 
-.topic-backing {
-   background-color: rgba(0, 0, 0, 0.5);
-   height: inherit;
-}
+/* improves ux providing options to navigate within page */
 
 #help-nav li {
    width: 33%;
@@ -239,7 +244,7 @@ header {
    font-size: 75px;
 }
 
-/* options section for help out page */
+/*  help out page - links in donate and volunteer sections */
 
 .help-way a {
    padding: 5px 20px 5px 20px;
@@ -274,6 +279,8 @@ header {
    overflow: scroll;
 }
 
+/* adds a backing container to form for positioning and contrast  */
+
 #form-backing {
    background-color: rgba(249, 249, 235, 0.5);
    text-align: center;
@@ -281,15 +288,17 @@ header {
    max-width: 600px;
    height: fit-content;
    border: 2px solid #101010;
-   margin:50px auto;
+   margin: 50px auto;
 }
 
-#contact-form>h2 {
+/* form content */
+
+#contact-form > h2 {
    margin: 20px 0 20px 0;
    font-size: 40px;
 }
 
-#contact-form>label {
+#contact-form > label {
    font-size: 1.1rem;
 }
 
@@ -310,11 +319,7 @@ header {
    background-color: #5c6956;
    border: 2px solid #8E815C;
    border-radius: 10px;
-   color:#f9f9eb;
-}
-
-.submit:hover{
-   color:#101010;
+   color: #f9f9eb;
 }
 
 #message-box {
@@ -330,7 +335,11 @@ textarea {
    text-indent: 10px;
 }
 
-/* form sent page */
+.submit:hover {
+   color: #101010;
+}
+
+/* form-sent page - adopts similar styles to contact page*/
 
 #form-sent-message {
    background: url("../images/rhino-hind.jpg") no-repeat center center;
@@ -351,17 +360,7 @@ textarea {
    border: 2px solid #101010;
 }
 
-#message-container a{
-   color:#101010;
-   border-radius: 100px;
-   text-decoration: underline;
-}
-
-#message-container a:hover {
-   background-color: #5c6956;
-   color: #f9f9eb;
-   padding:5px;
-}
+/* message content */
 
 #form-sent-message h2 {
    margin: 20px 0 20px 0;
@@ -372,6 +371,18 @@ textarea {
 #form-sent-message p {
    color: #101010;
    font-size: 20px;
+}
+
+#message-container a {
+   color: #101010;
+   border-radius: 100px;
+   text-decoration: underline;
+}
+
+#message-container a:hover {
+   background-color: #5c6956;
+   color: #f9f9eb;
+   padding: 5px;
 }
 
 /* footer with social links */
@@ -399,7 +410,7 @@ footer {
 
 /*  media queries */
 
-/* for very small screens of 375px and below */
+/* styles for very small screens of 375px and below */
 
 @media screen and (max-width:375px) {
 
@@ -416,9 +427,15 @@ footer {
    }
 }
 
-/* for medium to large screens */
+/* styles for medium to large screens 720px and up */
 
 @media screen and (min-width:720px) {
+
+   #logo {
+      margin-top: 20px;
+   }
+
+   /* open navbar positioned below logo for medium screens */
 
    #large-nav {
       display: block;
@@ -427,30 +444,25 @@ footer {
    #navbar {
       font-size: 25px;
       height: 50px;
-      background-color: #5c6956;
       margin-top: 20px;
    }
 
    #navbar li {
       float: left;
-      list-style-type: none;
       margin-left: 40px;
-      color: ivory;
    }
 
    #navbar a {
       color: #f9f9eb;
    }
 
+   /* hides hamburger menu */
+
    #menu {
       display: none;
    }
 
-   #logo {
-      margin-top: 20px;
-   }
-
-   /* about us section resposiveness for medium screens */
+   /* about us section for medium screens */
 
    .about-section {
       margin-top: 150px;
@@ -458,33 +470,23 @@ footer {
 
    #hero-image {
       height: 550px;
-      width: 100%;
       background: url("../images/background-hero.jpg") no-repeat center center;
       background-size: cover;
-      position: relative;
+   }
+
+   #cover-color {
+      background-color: rgba(0, 0, 0, 0.2);
    }
 
    #about-us {
       width: 40%;
    }
 
-   #about-us h2 {
-      color: #f9f9eb;
-      padding: 10px;
-      font-size: 35px;
-   }
-
-   #cover-color {
-      background-color: rgba(0, 0, 0, 0.2);
-
-   }
-
    #about-us p {
-      color: #f9f9eb;
-      letter-spacing: 2px;
+      font-size: 1.2rem;
    }
 
-   /* gallery- medium screens */
+   /* gallery for medium screens */
 
    #gallery-pics {
       margin-top: 150px;
@@ -492,57 +494,37 @@ footer {
       column-gap: 0;
    }
 
-   /* form- medium screen  */
-
-   #form-backing {
-      top: 10%;
-   }
+   /* contact and form-sent page for medium screens */
 
    #contact, #form-sent-message {
       margin: 150px 0 -30px 0;
       height: calc(100vh - 240px);
       overflow: auto;
    }
-
 }
 
-/* for large screens 1020px and above */
+/* styles for large screens 1020px and above */
 
 @media screen and (min-width:1020px) {
+
+   /* open navbar positioned right of logo on large screens */
 
    #large-nav {
       display: inline-block;
    }
 
    #navbar {
-      font-size: 25px;
       position: absolute;
       bottom: 8px;
       right: 0;
       margin-right: 40px;
-
    }
 
    #navbar li {
-      float: left;
-      list-style-type: none;
       margin-left: 40px;
-      color: ivory;
    }
 
-   #navbar a {
-      color: #f9f9eb;
-   }
-
-   #menu {
-      display: none;
-   }
-
-   #logo {
-      margin-top: 20px;
-   }
-
-   /* about us section resposiveness for large screens */
+   /* about us section for large screens */
 
    .about-section {
       margin-top: 98px;
@@ -550,29 +532,17 @@ footer {
 
    #hero-image {
       height: 600px;
-      width: 100%;
-      background: url("../images/background-hero.jpg") no-repeat center center;
-      background-size: cover;
-      position: relative;
    }
 
    #about-us {
       margin-top: 80px;
    }
 
-   #about-us h2 {
-      color: #f9f9eb;
-      padding: 10px;
-      font-size: 35px;
-   }
-
    #about-us p {
-      color: #f9f9eb;
-      letter-spacing: 2px;
       font-size: 1.3rem;
    }
 
-   /* gallery- large screens*/
+   /* gallery for large screens*/
 
    #gallery-pics {
       margin-top: 98px;
@@ -580,7 +550,7 @@ footer {
       column-gap: 0;
    }
 
-   /* form- medium screen  */
+   /* contact and form-sent page for large screens */
 
    #contact, #form-sent-message {
       margin: 100px 0 -30px 0;
