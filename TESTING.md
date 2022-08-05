@@ -79,6 +79,7 @@ As a user I want to:
         * Two of the options mentioned above contain links to suggested sites (that open in a separate tab) which users may use in order to help them further along each respective way of getting involved.
 
 * easily obtain the information I am seeking.
+    * A descriptive navigation menu allows users to access the relevant page they are looking for.
     * The site is well layed out with a simple structure and intuitive design to ensure users can obtain the relevant information they require.
 
 * be able to easily get in contact with Rhino Aid.
@@ -134,7 +135,7 @@ Other major amendments were as follows:
     * I did not find it neccessary to apply this to other pages as it is unlikely that the viewport height would exceed the contents of those pages.
 
 * When filling in the form on mobile devices, the pop-up keyboard would cause the page structure to change and the form would overlap the footer creating an undesireable and confusing effect. On large screens the footer on the contact page was raised off the bottom of the viewport.
-    * I amended this by changing the height to a value using calc(100vh - x) with x being the combined hieght of the header and footer.
+    * I amended this by changing the height in css to a value using calc(100vh - x) with x being the combined hieght of the header and footer.
     * I also set the overflow to scroll in css.
     * This fixed the problem allowing the user to easily fill out the form without any changes affecting the layout or presentation.
 
