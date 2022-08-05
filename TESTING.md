@@ -129,6 +129,10 @@ Other major amendments were as follows:
 * On very small screens The font size of the logo caused it to drop down and take up two lines which took up too much space on the viewport.
     * After reducing the font-size for screens < 375px the header returned to the intended size.
 
+* On the home page on very large screens which had a height greater than the contents of the page, the footer was lifted above the bottom of the viewport.
+    * To fix this, I wrapped the page contents in a div and styled it, giving it a height to push the footer to the bottom of the viewport.
+    * I did not find it neccessary to apply this to other pages as it is unlikely that the viewport height would exceed the contents of those pages.
+
 * When filling in the form on mobile devices, the pop-up keyboard would cause the page structure to change and the form would overlap the footer creating an undesireable and confusing effect. On large screens the footer on the contact page was raised off the bottom of the viewport.
     * I amended this by changing the height to a value using calc(100vh - x) with x being the combined hieght of the header and footer.
     * I also set the overflow to scroll in css.
