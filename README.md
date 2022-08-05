@@ -30,7 +30,7 @@ Visit the live site at [Rhino Aid](https://tony118g.github.io/rhino-aid/index.ht
 
 * [Testing](#testing)
 
-* [Deployment](#deployment)
+* [Deployment and Development](#deployment-and-development)
     * [Deploying the Site](#deploying-the-site)
     * [Forking the Repository](#forking-the-repository)
     * [Cloning the Repository](#cloning-the-repository)
@@ -196,14 +196,16 @@ Rhino Aid is designed to be simple and easy to use, it is made up of various fea
 
 ## Technologies Used
 
-* HTML5
+* [HTML5](https://html.spec.whatwg.org/)
     * Used to create website structure and content.
-* CSS
+* [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
     * Used to style the html.
-* Gitpod
+* [Gitpod](https://www.gitpod.io/#get-started)
     * Used to create code and repository content.
-* Github
+* [Github](https://github.com/)
     * Used to store the repository and deploy the site.
+* [Balsamiq](https://balsamiq.com/wireframes/)
+    * Used to create wireframes.
 
 [Back to top](#contents)
 
@@ -211,7 +213,7 @@ Rhino Aid is designed to be simple and easy to use, it is made up of various fea
 
 Please click [here](TESTING.md) for more information on testing Rhino Aid.
 
-## Deployment
+## Deployment and Development
 
 ### Deploying the Site
 
@@ -258,8 +260,11 @@ The repository link is [here](https://github.com/Tony118g/rhino-aid)
 [Back to top](#contents)
 
 ## Credits
+
 ### Content
+* Fonts were taken from [Google Fonts](https://fonts.google.com/)
 * The icons used throughout the site were from [font awesome](https://fontawesome.com/)
+* The colour pallete was generated using [coolers](https://coolors.co/)
 * I linked to a [Poaching Facts](https://www.poachingfacts.com/poaching-statistics/rhino-poaching-statistics/) external website in the home page where users can find more information about rhino poaching and statistics.
 * I included the following external links in the help-out page as examples of sites that offer volunteering and donating:
     * For "Care For Wild":
