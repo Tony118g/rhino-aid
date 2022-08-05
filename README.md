@@ -301,4 +301,14 @@ The repository link is [here](https://github.com/Tony118g/rhino-aid)
 * Images used throughout the site were taken from [pexels](https://www.pexels.com/)
 * I used [TinyPNG](https://tinypng.com/) to compress images.
 
+## Acknowledgements
+
+The Rhino Aid site was developed for the purpose of being a portfolio project for the [Code Institute](https://codeinstitute.net/global/) course in Full Stack Software Development. I would like to thank the following for support throughout the development process:
+
+* The Code Institute community as a whole, including staff and students.
+* My peers and friends who supported me and gave feedback.
+* My mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) for support and advice during development phases.
+
+Antony Guimaraes 2022
+
 [Back to top](#contents)
